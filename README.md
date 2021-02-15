@@ -1,6 +1,6 @@
-# Serum DEX UI
+# Creatify DEX
 
-An implementation of a UI for the Serum DEX.
+A decentralized derivatives exchange with trustless cross-chain trading platform based on the UI for the Serum DEX.
 
 ### Running the UI
 
@@ -58,4 +58,4 @@ See [serum-js](https://github.com/project-serum/serum-js) for DEX client-side co
 
 See [sol-wallet-adapter](https://github.com/project-serum/sol-wallet-adapter) for an explanation of how the Serum DEX UI interacts with wallet services to sign and send requests to the Serum DEX.
 
-See [spl-token-wallet](https://github.com/project-serum/spl-token-wallet) for an implementation of such a wallet, live at [sollet.io](https://sollet.io).
+See [Creatify Wallet](https://github.com/CreatifyPlatform/wallet) for an implementation of such a wallet, live at [creatifywallet.netlify.app](https://creatifywallet.netlify.app/).

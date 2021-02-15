@@ -66,8 +66,8 @@ export default function DeprecatedMarketsInstructions({ switchToLiveMarkets }) {
         </Link>
         , now called WUSDC, to Native USDC. You can convert from WUSDC to USDC
         directly on{' '}
-        <Link external to={'https://sollet.io'}>
-          sollet.io
+        <Link external to={'https://creatifywallet.netlify.app/'}>
+          Creatify Wallet
         </Link>
         , or can deposit WUSDC and be credited USDC on exchanges like{' '}
         <Link external to={'https://ftx.com'}>

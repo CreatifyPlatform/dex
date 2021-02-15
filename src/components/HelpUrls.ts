@@ -4,8 +4,8 @@ export const helpUrls = {
   contactEmail: 'mailto:contact@projectserum.com',
   discord: 'https://discord.gg/EDvudv6',
   telegram: 'https://t.me/ProjectSerum',
-  github: 'https://github.com/project-serum',
-  projectSerum: 'https://projectserum.com/',
+  github: 'https://github.com/CreatifyPlatform',
+  projectSerum: 'https://github.com/CreatifyPlatform',
   developerResources: 'https://projectserum.com/developer-resources',
   solanaBeach: 'https://solanabeach.io',
 };
