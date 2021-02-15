@@ -6,7 +6,7 @@ import { useLocalStorageState } from './utils';
 import { WalletContextValues } from './types';
 
 export const WALLET_PROVIDERS = [
-  { name: 'sollet.io', url: 'https://www.sollet.io' },
+  { name: 'Creatify', url: 'https://creatifywallet.netlify.app' },
 ];
 
 const WalletContext = React.createContext<null | WalletContextValues>(null);
@@ -16,11 +16,11 @@ export function WalletProvider({ children }) {
 
   const [savedProviderUrl, setProviderUrl] = useLocalStorageState(
     'walletProvider',
-    'https://www.sollet.io',
+    'https://creatifywallet.netlify.app',
   );
   let providerUrl;
   if (!savedProviderUrl) {
-    providerUrl = 'https://www.sollet.io';
+    providerUrl = 'https://creatifywallet.netlify.app';
   } else {
     providerUrl = savedProviderUrl;
   }
